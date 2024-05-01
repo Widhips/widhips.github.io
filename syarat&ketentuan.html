@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tadicka Tour</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body class="background">
+	<!-- NAVBAR -->
+	<nav>
+		<ul class="sidebar">
+			<li onclick=hideSidebar()><a href="/tampilan_awal.html"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+			<li><a href="/index.html">Tiket Saya</a></li>
+			<li><a href="titikkeberangkatan.html">Titik Keberangkatan</a></li>
+			<li><a href="promo.html">Promo</a></li>
+			<li><a href="syarat&ketentuan.html">Syarat&Ketentuan</a></li>
+			<li><a href="tentang-kami.html">Tentang Kami</a></li>
+			<li><a href="saran-masukan.html">Saran/Masukan</a></li>
+			<li><a href="login.html">Login</a></li>
+		</ul>
+		<ul>
+			<li><a href="/tampilan_awal.html"><img src="tadika1.png" height="70%"></a></li>
+			<li class="hideOnMobile"><a href="/index.html">Tiket Saya</a></li>
+			<li class="hideOnMobile"><a href="titikkeberangkatan.html">Titik Keberangkatan</a></li>
+			<li class="hideOnMobile"><a href="promo.html">Promo</a></li>
+			<li class="hideOnMobile"><a href="syarat&ketentuan.html">Syarat&Ketentuan</a></li>
+			<li class="hideOnMobile"><a href="tentang-kami.html">Tentang Kami</a></li>
+			<li class="hideOnMobile"><a href="saran-masukan.html">Saran/Masukan</a></li>
+			<li class="hideOnMobile"><a href="login.html">Login</a></li>
+			<li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+		</ul>
+	</nav>
+	<script>
+		function showSidebar(){
+			const sidebar = document.querySelector('.sidebar')
+			sidebar.style.display = 'flex'
+		}
+		function hideSidebar(){
+			const sidebar = document.querySelector('.sidebar')
+			sidebar.style.display = 'none'
+		}
+	</script>
+    
+<!-- CONTEN -->
+<body>
+
+    <div class="wrapers flex_align_justify">
+       <div class="tc_wrap">
+           <div class="tabs_list">
+             <ul>
+               <li data-tc="tab_item_1" class="active">Syarat dan Ketentuan</li>
+               <li data-tc="tab_item_2">Hak Intelektual Properti</li>
+               <li data-tc="tab_item_3">Larangan penggunaan</li>
+               <li data-tc="tab_item_4">Batas Tanggung Jawab</li>
+               <li data-tc="tab_item_5">Keamanan</li>
+             </ul>
+           </div>
+           <div class="tabs_content">
+              <div class="tab_head">
+                <h2>Tadicka Tour</h2>
+              </div>
+              <div class="tab_body">
+                <div class="tab_item tab_item_1">
+                    <h3>Syarat dan Ketentuan</h3>
+                    <p>SYARAT DAN KETENTUAN PENGGUNAAN APLIKASI MUTIARA EXPRESS KETENTUAN DAN PERSYARATAN DI BAWAH INI WAJIB DIBACA SEBELUM MENGGUNAKAN SITUS INI.</p>
+                  <p>PENGGUNAAN SITUS INI BERARTI PENERIMAAN DAN PENUNDUKAN DIRI TERHADAP SYARAT DAN KETENTUAN YANG ADA DI BAWAH INI.</p>
+                  <p>Tadicka Mesra, dikelola oleh PT. TADICKA MSRA NUSANTAR, berdasarkan penerimaan dan penundukan terhadap Syarat dan Ketentuan Penggunaan di bawah ini termasuk namun tidak terbatas pada Kerahasiaan, FAQs , dan judul judul lainnya yang menjadi suatu bagian tak terpisahkan dari Syarat dan Ketentuan dan termasuk di dalamnya referensi dan istilah yang digunakan ("Syarat").</p><p>Syarat ini dapat kami ubah, modifikasi, tambah dan hapus sewaktu-waktu tanpa pemberitahuan. Syarat wajib secara berkala dibaca. Dengan melanjutkan penggunaan Situs ini setelah perubahan yang ada pada Syarat, berarti pengunjung, pengguna, Pengguna Terdaftar (“Anda” atau “Pengguna”) menyatakan setuju dan sepakat terhadap perubahan yang ada.</p><p>Apabila Anda menggunakan jasa lain milik Kami, maka penggunaan Anda akan berdasarkan penundukan terhadap Syarat dan Ketentuan yang berlaku bagi jasa tersebut.</p>
+                </div>
+                <div class="tab_item tab_item_2" style="display: none;">
+                    <h3>Hak Intelektual Properti</h3>
+                  <p>Semua yang ada di dalam Situs ini merupakan Hak Kekayaan Intelektual kepemilikan dari Tadicka tour. Semua informasi dan bahan-bahan, termasuk tetapi tidak terbatas pada, perangkat lunak, teks, data, grafik, gambar, suara, video, logo, ikon atau kode-kode html dan kode-kode lain yang ada di website ini dilarang dipublikasikan, dimodifikasi, disalin, digandakan atau diubah dengan cara apapun di luar area Situs ini tanpa izin dari Tadicka tour. Pelanggaran terhadap hak-hak Situs ini dapat ditindak sesuai dengan peraturan yang berlaku.</p>
+                  <p>Tadicka Tour dapat memuat tautan ke situs yang dioperasikan oleh pihak-pihak selain Tadicka Tour. Tautan-tautan tersebut disediakan hanya sebagai referensi untuk Anda. Kami tidak mengendalikan situs ataupun tautan tersebut dan tidak bertanggung jawab atas isi atau privasi maupun praktek-praktek lain dari situs tersebut. Selanjutnya, tidak ada pihak yang menjamin keakuratan atau kelengkapan informasi atau konten pada tautan yang disertakan pada Situs. Kami, atau pihak ketiga lainnya, dapat memuat hasil pencarian otomatis atau menyediakan tautan/link kepada situs lain. Kami dapat menyediakan kesempatan bagi pihak ketiga untuk menyampaikan, memuat, mengirimkan atau menyediakan informasi, data, tulisan, foto, suara, grafis, video, pesan, review, atau bahan lainnya (“Konten”) melalui Situs ini.</p><p>Kami tidak mereview dan/atau tidak memiliki kontrol terhadap situs, sumber, dan Konten, Anda dengan ini menyatakan menerima bahwa Kami tidak bertanggung jawab terhadap Konten yang ada, atau ketersediaan situs dan sumber tersebut, dan kami tidak mendukung atau menyarankan dan tidak bertanggung jawab atas situs atau asal muasal Konten. Anda dengan ini menyatakan sepakat untuk melepaskan Kami dari dan terhadap setiap dan seluruh kewajiban, tanggungan baik secara langsung ataupun tidak langsung, atas kerugian, kerusakan, yang diakibatkan atau dituduhkan sebagai akibat dari atau sehubungan dengan penggunaan atau dipertanggungjawabkannya suatu Konten, situs atau sumber.</p>
+                </div>
+                <div class="tab_item tab_item_3"  style="display: none;">
+                    <h3>Larangan penggunaan</h3>
+                    <p>Anda setuju untuk tidak mengupayakan, membuat atau mengupayakan, mencari, mengutus agen otomatis atau teknologi bentuk lainnya untuk mengumpulkan, mendapatkan, atau hal lainnya untuk berinteraksi dengan Situs ini. Website ini dan Layanan yang tersedia didalamnya dapat digunakan oleh Anda hanya untuk penggunaan pribadi dan secara non-komersial dan setiap saat tunduk pada dan berlaku syarat dan ketentuan yang saat itu berlaku dalam Syarat dan Ketentuan Penggunaan Tadicka Tour. Website ini dan produk-produk, teknologi dan proses yang terdapat atau terkandung dalam Website, dimiliki oleh Kami atau pihak ketiga yang memberi hak kepada Kami. Kecuali untuk penggunaan yang secara tegas diijinkan dan diperbolehkan dalam Syarat dan Ketentuan Penggunaan Mutiara Express, Anda tidak memiliki ataupun menerima dan Mutiara Express tidak memberikan hak lain apapun ke Anda atas Website ini, berikut dengan segala data, informasi dan konten didalamnya.</p>
+                  <p>Dengan menggunakan Website ini atau Layanan yang tersedia didalamnya, maka Anda menyatakan setuju tidak akan men-download, menayangkan atau mentransmisi dengan cara apa pun, dan atau membuat konten apa pun tersedia untuk umum yang tidak konsisten dengan penggunaan yang diijinkan dalam Syarat dan Ketentuan Penggunaan Tadicka Tour. Dalam Website ini mungkin terdapat link (tautan) ke website yang dikelola oleh pihak ketiga ("Situs Eksternal"). Situs Eksternal disediakan hanya untuk referensi dan kenyamanan saja. Tadicka Tour tidak mengoperasikan, mengendalikan atau mendukung dalam bentuk apa pun Situs Eksternal yang bersangkutan ataupun konten/isinya. Anda bertanggung jawab penuh atas penggunaan Situs Eksternal tersebut dan dianjurkan untuk mempelajari syarat dan ketentuan dari Situs Eksternal itu secara seksama. Layanan yang tersedia dalam Website ini secara umum menggunakan sistem re-marketing dan sistem cookies yang memungkinkan pihak ketiga (termasuk dan tidak terbatas pada Google) mengakses dan menggunakan data kunjungan dalam sistem Cookies website ini untuk menampilkan dan menayangkan kembali tiap iklan Tadicka tour melalui internet. Tidak boleh membuat link, melakukan screen capture atau data crawling ke Website tanpa adanya persetujuan tertulis sebelumnya dari Tadicka tour. Hal-hal tersebut dianggap sebagai pelanggaran hak milik intelektual</p>
+                </div>
+                <div class="tab_item tab_item_4"  style="display: none;">
+                    <h3>Batas Tanggung Jawab</h3>
+                  <p>Kami tidak akan bertanggung jawab terhadap kerusakan dari penggunaan situs ini baik secara langsung maupun tidak langsung, baik khusus atau sebagai tambahan penggunaan situs ini atau penggunanaan dari tautan yang ada. Mengenai kemungkinan kerugian atau kerusakan yang dapat terjadi.</p>
+                </div>
+                <div class="tab_item tab_item_5"  style="display: none;">
+                    <h3>Keamanan</h3>
+                  <p>Pada saat Anda membuat pemesanan atau mengakses informasi Akun Anda, Anda akan menggunakan akses Secure Server Layer (SSL) akan mengenkripsi informasi yang Anda kirimkan melalui Website ini. Walaupun Mutiara Express menggunakan upaya terbaik untuk memastikan keamanannya, Mutiara Express tidak bisa menjamin seberapa kuat atau efektifnya enkripsi ini dan Mutiara Express tidak akan bertanggung jawab atas masalah yang terjadi akibat pengaksesan tanpa ijin dari informasi yang Anda sediakan.</p>
+                </div>
+              </div>
+              <div class="tab_foot flex_align_justify">
+                <button class="decline">
+                  Decline
+                </button>
+                <button class="agree">
+                  Agree
+                </button>
+              </div>
+           </div>
+       </div>
+    </div>
+    
+    <script type="text/javascript" src="scripts.js"></script>
+    
+    </body>
+ 
+ <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>

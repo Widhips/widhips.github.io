@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tadicka Tour</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body class="background">
+	<!-- NAVBAR -->
+	<nav>
+		<ul class="sidebar">
+			<li onclick=hideSidebar()><a href="/tampilan_awal.html"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+			<li><a href="/index.html">Tiket Saya</a></li>
+			<li><a href="titikeberangkatan.html">Titik Keberangkatan</a></li>
+			<li><a href="promo.html">Promo</a></li>
+			<li><a href="syarat&ketentuan.html">Syarat&Ketentuan</a></li>
+			<li><a href="tentang-kami.html">Tentang Kami</a></li>
+			<li><a href="saran-masukan.html">Saran/Masukan</a></li>
+			<li><a href="login.html">Login</a></li>
+		</ul>
+		<ul>
+			<li><a href="/tampilan_awal.html"><img src="tadika1.png" height="70%"></a></li>
+			<li class="hideOnMobile"><a href="/index.html">Tiket Saya</a></li>
+			<li class="hideOnMobile"><a href="titikeberangkatan.html">Titik Keberangkatan</a></li>
+			<li class="hideOnMobile"><a href="promo.html">Promo</a></li>
+			<li class="hideOnMobile"><a href="syarat&ketentuan.html">Syarat&Ketentuan</a></li>
+			<li class="hideOnMobile"><a href="tentang-kami.html">Tentang Kami</a></li>
+			<li class="hideOnMobile"><a href="saran-masukan.html">Saran/Masukan</a></li>
+			<li class="hideOnMobile"><a href="login.html">Login</a></li>
+			<li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+		</ul>
+	</nav>
+	<script>
+		function showSidebar(){
+			const sidebar = document.querySelector('.sidebar')
+			sidebar.style.display = 'flex'
+		}
+		function hideSidebar(){
+			const sidebar = document.querySelector('.sidebar')
+			sidebar.style.display = 'none'
+		}
+	</script>
+    
+<!-- CONTEN -->
+<ul class="location-list">
+    <li class="location-item">
+      <div class="location-title">RedBus Lounge - Medaeng (Surabaya)</div>
+      <div class="location-address">Jl. Letjend Sutoyo No.140a, Bungur Asih, Medaeng, Kec. Waru, Kabupaten Sidoarjo, Jawa Timur 61256</div>
+      <div class="location-phone">Phone: 0822 50 800 100</div>
+      <div class="location-email">Email: TadickaTour.bus@gmail.com</div>
+    </li>
+    <li class="location-item">
+      <div class="location-title">MGK Mall - Kemayoran (Jakarta)</div>
+      <div class="location-address">MGK Mall, Jl. H.R. Rasuna Said Kav. C-22, Kemayoran, Jakarta Pusat 10610</div>
+      <div class="location-phone">Phone: 0822 50 800 100</div>
+      <div class="location-email">Email: TadickaTour.bus@gmail.com</div>
+    </li>
+    <li class="location-item">
+      <div class="location-title">Terminal Pulo Gebang (Jakarta)</div>
+      <div class="location-address">JL.Sejajar Tol Sisi Timur Km.2, RT.11/RW.6, Pulo Gebang, Cakung, East Jakarta City, Jakarta 13950</div>
+      <div class="location-phone">Phone: 0822 50 800 100</div>
+      <div class="location-email">Email: TadickaTour.bus@gmail.com</div>
+    </li>
+  </ul>
+ 
+ <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
